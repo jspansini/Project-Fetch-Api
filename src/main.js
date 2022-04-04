@@ -10,7 +10,7 @@ const dataFiles = (result) =>{
 cep.addEventListener("blur",(e)=>{
     let search = cep.value.replace("-","")
     const options = {
-        method: 'GET',RE
+        method: 'GET',
         mode: 'cors',
         cache: 'default'
     }
